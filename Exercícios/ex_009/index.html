@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links e âncoras em HTML5</title>
+</head>
+<style>
+    body{
+        background-color: coral;
+        color: cornsilk;
+        font: icon;
+    }
+</style>
+<body>
+    <h1>__Usando links externos__</h1>
+    <!--Target: _blank abre uma nova aba-->
+    <!--Rel:external abre o link de outro site na nova aba e mantém seu site aberto-->
+    <p>Você pode acessar a página <a href="https://www.google.com/search?q=carneirinhos+divertidos&oq=carneirinhos+divertidos&aqs=chrome..69i57j0l3.3752j0j7&sourceid=chrome&ie=UTF-8" target="_blank" rel="external">carneirinhos divertidos</a></p>
+    <p>Você também pode acessar a página <a href="https://www.google.com/search?q=ovelhas+voadoras&oq=ovelhas+voa&aqs=chrome.0.0i512j69i57j0i512j0i22i30l4.12310j0j7&sourceid=chrome&ie=UTF-8">Ovelhas Voadoras</a></p>
+    <h2>Usando links internos</h2>
+    <!--Irá fazer a relação com outra página que está dentro do nosso servidor-->
+    <p>Esta é a primeira página do site. Se você quiser pode acessar também a minha <a href="pag002.html" target="_self" rel="next">segunda página</a></p>     
+    <p>Você também pode acessar a nossa <a href="noticias/pag003.html" target="_self" rel="next">página de notícias</a></p>
+
+    <h1>Links para download</h1>
+    <ul>
+        <li><a type="application/pdf" download="papelLogLog.pdf" href="Livro/papelLogLog.pdf">Baixar papel logaritmo em PDF</a></li>
+    </ul>
+</body>
+</html>
